@@ -1,0 +1,67 @@
+/* Recipes.css */
+
+.recipes-page {
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    font-size: 1.2em;
+    margin-right: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 1em;
+  }
+  
+  button {
+    padding: 8px 15px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .recipe {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .recipe h2 {
+    font-size: 1.5em;
+  }
+  
+  .recipe img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .recipe h3,
+  .recipe ol,
+  .recipe ul {
+    margin-top: 10px;
+  }
+  
+  .link-back {
+    display: block;
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  .link-back:hover {
+    text-decoration: underline;
+  }
+  

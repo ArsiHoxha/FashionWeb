@@ -1,38 +1,307 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fffbfb;
+}
+
 .App {
+  text-align: center;
+
+}
+
+/* Navigation styles */
+#navigation {
+  display: flex;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  
+}
+
+/* Home container styles */
+.home-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.home-container img {
+  padding-top: 1%;
+  max-width: 100%;
+}
+
+.home-text {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#home-image-textBig {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#home-image-button button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Home container 4 image styles */
+.home-container-4-imazhet {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.home-container-4-imazhet-1{
+  background-color: #ae132a;
+  
+}
+.home-container-4-imazhet-2{
+  background-color: #414c34;
+}
+
+.home-container-4-imazhet-3{
+  background-color: #8b9e94;
+}
+
+.home-container-4-imazhet-4{
+  background-color: #ffac0c;
+}
+
+.home-container-4-imazhet div {
+  text-align: center;
+}
+
+.home-container-4-imazhet img {
+  max-width: 100%;
+}
+.home-container-4-imazhet div {
+  font-family: 'Arial', sans-serif; /* Use your preferred font */
+  font-size: 26px; /* Adjust the font size based on your preference */
+  line-height: 2.5; /* Adjust the line height based on your preference */
+  color: white;
+  font-weight: bold;
+}
+
+/* Contact form styles */
+#contact {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contacte-first {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#contacte-sec {
+  text-align: center;
+}
+
+.contact-forms {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputE,
+.inputM,
+.inputMESA {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.submit-button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer styles (adjust as needed) */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
   color: white;
 }
+/* ... (previous styles) */
 
-.App-link {
-  color: #61dafb;
+/* Learn More Section styles */
+.learn-more-section {
+  background-color: #f8f8f8;
+  padding: 40px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.learn-more-section h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.learn-more-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.learn-more-section button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ae132a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-section button:hover {
+  background-color: #941426;
+}
+#what-bakers-love-text {
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 24px; /* Adjust the font size as needed */
+  font-weight: bold; /* Adjust the font weight as needed */
+  color: #333; /* Adjust the font color as needed */
+  /* Add other styling as needed */
+}
+#teksti-autorit2 {
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ae132a; /* Add your desired color */
+}
+
+#thenia2 {
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 36px; 
+  
+  font-weight: bold;
+  color: #333; 
+  margin-top: 10px;
+}
+#home-image-textsmoll {
+  font-family: 'Mochiy Pop One', sans-serif;
+  color: #ae132a; /* Add your desired color */
+
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#home-image-textBig {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#home-image-button {
+  display: flex;
+  justify-content: center;
+}
+
+#home-image-button button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ae132a; /* Add your desired button color */
+  border: none;
+  cursor: pointer;
+}
+ a {
+  text-decoration: none !important;
+  color: white;
+}
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: #af0f3f; /* Set your desired background color */
+}
+
+#navigation img {
+  max-height: 80px; /* Adjust the max height as needed */
+  margin-left: 5VH;
+  border-radius: 50%;
+}
+
+#home-link, #recipes-link, #learn-link {
+  text-decoration: none;
+  color: #fff; /* Set your desired text color */
+  margin: 0 -0px; /* Adjust the spacing between links */
+  font-size: 16px; /* Set your desired font size */
+  font-weight: bold; /* Set your desired font weight */
+
+}
+
+#home-link:hover, #recipes-link:hover, #learn-link:hover {
+  text-decoration: underline; /* Show underline on hover */
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: white; /* Set your desired background color */
+  z-index: 100; /* Set a z-index value to ensure it appears above other elements */
+}
+.nav-link {
+  margin-right: 10vh;
+}
+
+#thenia1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #333;
+  font-family: 'Mochiy Pop One', sans-serif;
+
+}
+
+#thenia1 br {
+  display: none; /* Hide line breaks on larger screens */
+}
+/* Responsive styling for viewport width up to 600px */
+@media (max-width: 600px) {
+  .nav-link {
+    margin-right: 5px;
   }
-  to {
-    transform: rotate(360deg);
+  #navigation img {
+    max-height: 80px; /* Adjust the max height as needed */
+    margin-left: 2VH;
   }
+  #thenia1 br {
+    display: block; /* Display line breaks on smaller screens */
+  }
+
+  
+}
+
+#teksti-autorit3 {
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ae132a; /* Add your desired color */
+}
+
+#thenia3 {
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 36px; 
+  
+  font-weight: bold;
+  color: #333; 
+  margin-top: 10px;
 }

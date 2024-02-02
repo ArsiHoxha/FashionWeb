@@ -52,27 +52,36 @@ body {
   cursor: pointer;
 }
 
-/* Home container 4 image styles */
+#home-container-image-text1-image img{
+  width: 100%;
+}
+
 .home-container-4-imazhet {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   margin-top: 20px;
 }
 .home-container-4-imazhet-1{
-  background-color: #ae132a;
+  background-color: #313131;
   
 }
 .home-container-4-imazhet-2{
-  background-color: #414c34;
+  background-color: #313131;
+  width: 80%;
+}
+
+.home-container-4-imazhet-2 img{
+  width: 100%;
+  height: 30vh;
 }
 
 .home-container-4-imazhet-3{
-  background-color: #8b9e94;
+  background-color: #313131;
 }
 
 .home-container-4-imazhet-4{
-  background-color: #ffac0c;
+  background-color: #313131;
 }
 
 .home-container-4-imazhet div {
@@ -80,7 +89,8 @@ body {
 }
 
 .home-container-4-imazhet img {
-  max-width: 100%;
+  width: 100%;
+  height: 50%;
 }
 .home-container-4-imazhet div {
   font-family: 'Arial', sans-serif; /* Use your preferred font */
@@ -231,7 +241,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 5px;
-  background-color: #af0f3f; /* Set your desired background color */
+  background-color: #424242; /* Set your desired background color */
 }
 
 #navigation img {
@@ -272,9 +282,8 @@ footer {
 }
 
 #thenia1 br {
-  display: none; /* Hide line breaks on larger screens */
+  display: none; 
 }
-/* Responsive styling for viewport width up to 600px */
 @media (max-width: 600px) {
   .nav-link {
     margin-right: 5px;
@@ -286,7 +295,18 @@ footer {
   #thenia1 br {
     display: block; /* Display line breaks on smaller screens */
   }
-
+  .home-container-4-imazhet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .home-container-4-imazhet-2{
+    background-color: #313131;
+    width: 100%;
+  }
+  
   
 }
 

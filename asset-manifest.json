@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/FashionWeb/static/css/main.664ae52d.css",
+    "main.js": "/FashionWeb/static/js/main.9865168a.js",
+    "static/js/787.40ec7132.chunk.js": "/FashionWeb/static/js/787.40ec7132.chunk.js",
+    "static/media/king-arthur-baking@2x.png": "/FashionWeb/static/media/king-arthur-baking@2x.a1ada076d62f9680f577.png",
+    "index.html": "/FashionWeb/index.html",
+    "main.664ae52d.css.map": "/FashionWeb/static/css/main.664ae52d.css.map",
+    "main.9865168a.js.map": "/FashionWeb/static/js/main.9865168a.js.map",
+    "787.40ec7132.chunk.js.map": "/FashionWeb/static/js/787.40ec7132.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.664ae52d.css",
+    "static/js/main.9865168a.js"
+  ]
+}

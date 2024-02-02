@@ -11,10 +11,6 @@ function Ndrrimi() {
         <Route path='/' element={<App></App>}></Route>
         <Route path='/recipe' element={<RecipesPage></RecipesPage>}></Route>
         <Route path='/more' element={<MorePage></MorePage>}></Route>
-
-
-        
-        {/* Define other routes as needed */}
       </Routes>
     </Router>
   );
